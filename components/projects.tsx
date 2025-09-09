@@ -5,7 +5,7 @@ import Image from "next/image"
 const Projects = memo(function Projects() {
   const mainProjects = [
     {
-      title: "E-Commerce Platform",
+      title: "AI MOCK INTERVIEWER",
       description:
         "A full-stack e-commerce solution built with Next.js, featuring user authentication, payment processing, and admin dashboard.",
       image: "/placeholder.svg?height=400&width=600",
