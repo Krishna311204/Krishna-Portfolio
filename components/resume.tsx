@@ -1,43 +1,37 @@
-import { Download, FileText } from "lucide-react"
+import { Download } from "lucide-react"
 
 export default function Resume() {
   return (
     <section id="resume" className="py-20 px-4">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+      <div className="max-w-6xl mx-auto text-center">
+        {/* Heading */}
+        <h2 className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
           Resume
         </h2>
 
-        <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl border border-gray-800 overflow-hidden">
-          <div className="p-6 border-b border-gray-800">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <FileText className="text-white" size={24} />
-                <h3 className="text-xl font-semibold text-white">Krishna_Palekar_Resume.pdf</h3>
-              </div>
-              <a
-                href="https://drive.google.com/file/d/1vU-aT2-dY_A47jBbklIhod7WGJxBZ1Q1/view?usp=sharing"
-                download
-                className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-lg font-semibold hover:bg-gray-200 transition-colors"
-              >
-                <Download size={16} />
-                Download
-              </a>
-            </div>
-          </div>
-
-          <div className="p-6">
-            <div className="bg-white rounded-lg overflow-hidden">
-              <iframe src="/resume.pdf" className="w-full h-96 md:h-[600px]" title="Resume PDF" />
-            </div>
-            <p className="text-gray-400 text-sm mt-4 text-center">
-              PDF viewer not supported?{" "}
-              <a href="https://drive.google.com/file/d/1vU-aT2-dY_A47jBbklIhod7WGJxBZ1Q1/view?usp=sharing" className="text-white hover:underline">
-                Click here to download
-              </a>
-            </p>
-          </div>
+        {/* Resume box with 2 pages side by side */}
+        <div className="bg-black p-4 rounded-xl border border-gray-800 shadow-lg flex flex-col md:flex-row gap-4 justify-center">
+          <img
+            src="/Krishna 9-1.png"
+            alt="Resume Page 1"
+            className="w-full md:w-1/2 h-auto object-contain rounded-lg"
+          />
+          <img
+            src="/Krishna 9-2.png"
+            alt="Resume Page 2"
+            className="w-full md:w-1/2 h-auto object-contain rounded-lg"
+          />
         </div>
+
+        {/* Download button */}
+        <a
+          href="https://drive.google.com/file/d/1vU-aT2-dY_A47jBbklIhod7WGJxBZ1Q1/view?usp=sharing"
+          download
+          className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-white text-black rounded-lg font-semibold hover:bg-gray-200 transition-colors"
+        >
+          <Download size={18} />
+          Download Resume
+        </a>
       </div>
     </section>
   )

@@ -14,11 +14,11 @@ const Hero = memo(function Hero() {
         </div>
 
         <div className="pt-20">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 text-white drop-shadow-2xl gpu-accelerated">
-            Krishna Pramod Palekar
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mb-4 text-white drop-shadow-2xl gpu-accelerated">
+            KRISHNA PRAMOD PALEKAR
           </h1>
           <p className="text-xl md:text-3xl lg:text-4xl text-white mb-6 font-light drop-shadow-xl">
-            Python Developer | Full Stack Developer | Data Analyst 
+            AIML ENGINEER | Python Developer | Full Stack Developer | Data Analyst 
           </p>
           <p className="text-lg md:text-xl text-white mb-8 font-light drop-shadow-xl">AI-ML ENGINEER</p>
           <p className="text-base md:text-lg text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed drop-shadow-lg">

@@ -7,29 +7,56 @@ const Projects = memo(function Projects() {
     {
       title: "AI MOCK INTERVIEWER",
       description:
-        "A full-stack e-commerce solution built with Next.js, featuring user authentication, payment processing, and admin dashboard.",
+        "An AI-driven mock interview platform that analyzes speech, tone, grammar, and facial expressions in real time, providing instant feedback and a structured final report for interview preparation.",
       image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+      technologies: ["Next.js", "RAG Bot", "Fast API", "Firebase"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
+      githubUrl: "https://github.com/Krishna311204/mock-interviewer.git",
     },
     {
-      title: "Task Management App",
+      title: "AI Powered Game Character Generator using GAN based Facial Stylization",
       description:
-        "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+        "An AI-powered tool that generates unique game characters using GAN-based facial stylization, bringing realism and creativity to character design.",
       image: "/placeholder.svg?height=400&width=600",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
+      technologies: ["Next.js", "RAG Bot", "FastAPI", "Firebase", "StyleGAN2", "pSp Encoder", "Python", "OpenCV"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
+      githubUrl: "https://github.com/Krishna311204/AI-Powered-Game-Character-Generator-using-GAN-based-Facial-Stylization.git",
     },
     {
-      title: "AI-Powered Analytics Dashboard",
+      title: "AI Face Recognition Attendance System",
       description:
-        "An intelligent analytics dashboard that provides insights using machine learning algorithms and beautiful data visualizations.",
+        "An AI-powered attendance system that uses facial recognition to automatically mark student or employee attendance. It ensures accuracy, reduces proxy, and streamlines the process by integrating real-time face detection and recognition.",
       image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Python", "React", "TensorFlow", "D3.js"],
+      technologies: ["Python", "OpenCV", "Face Recognition Library", "Tkinter", "Firebase", "TensorFlow", "Keras"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
+      githubUrl: "https://github.com/Krishna311204/AI-Face-Recognition-Attendance-System.git",
+    },
+    {
+      title: "AI Repo Agent",
+      description:
+        "An AI-powered repository assistant that analyzes codebases, generates documentation, answers queries using RAG, and streamlines project navigation for developers.",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["FastAPI", "RAG Bot", "LangChain", "LangGraph", "Google Gemini API"],
+      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/Krishna311204/AI-Repo-Agent.git",
+    },
+    {
+      title: "AI Natural Language Database Query Tool",
+      description:
+        "An AI-powered natural language database query tool that securely converts plain English questions into SQL queries. It ensures safety through a two-step architecture, supports dynamic schema awareness, and outputs structured results ready for visualization.",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["Node.js", "Express.js", "MySQL/PostgreSQL", "Google Gemini API", "Dotenv"],
+      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/Krishna311204/AI-Query-Generator.git",
+    },
+    {
+      title: "College ERP - Attendance Management System",
+      description:
+        "A College ERP Attendance Management System built with Flask and SQLite, featuring multi-role authentication (Admin, Faculty, Student), secure login, course and student management, and detailed attendance tracking with analytics and reports.",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["HTML", "CSS", "JavaScript", "SQL", "Python", "Flask"],
+      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/Krishna311204/Collage-ERP-DBMS-Project.git",
     },
   ]
 
