@@ -79,17 +79,17 @@ export default function Contact() {
             </div>
 
             <div className="flex gap-4">
-              <a href="https://github.com" className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors">
+              <a href="https://github.com/Krishna311204" className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors">
                 <Github className="text-white" size={20} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/krishnapramodpalekar/"
                 className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
               >
                 <Linkedin className="text-white" size={20} />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/krishnap311204"
                 className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
               >
                 <Twitter className="text-white" size={20} />
